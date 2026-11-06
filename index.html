@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifeLink — Blood when it matters, from donors who are verified</title>
+    <meta name="description" content="LifeLink is an emergency blood network: raise a verified blood request, nearby eligible donors are alerted in waves, and a verified blood bank confirms the donation. Free, private, and built for emergencies.">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="LifeLink — Blood when it matters, donors who are verified">
+    <meta property="og:description" content="LifeLink is an emergency blood network: raise a verified blood request, nearby eligible donors are alerted in waves, and a verified blood bank confirms the donation. Free, private, and built for emergencies.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="logo.png">
+    <link rel="stylesheet" href="style.css?v=3">
+    <link rel="icon" href="logo.png" type="image/png">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container header-content">
+            <a href="index.html#top" class="logo">
+                <img src="logo.png" alt="LifeLink logo" class="logo-img">
+                <span class="logo-text">LifeLink</span>
+            </a>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="index.html#how-it-works">How It Works</a>
+                <a href="index.html#who-its-for">Who It's For</a>
+                <a href="index.html#features">Features</a>
+                <a href="index.html#faq">FAQ</a>
+                <a href="privacy-policy/index.html">Privacy Policy</a>
+            </nav>
+
+            <div class="header-actions">
+                <div class="nav-buttons">
+                    <a href="https://play.google.com/store/apps/details?id=com.neuroxes.lifelink" class="btn btn-primary" id="headerGetApp">
+                        <svg viewBox="0 0 24 24" class="btn-icon" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 3v12m0 0l-4.5-4.5M12 15l4.5-4.5M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg>
+                        <span class="btn-label">Get the App</span>
+                    </a>
+                </div>
+
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main id="top">
+
+        <!-- Hero -->
+        <section class="hero">
+            <div class="hero-bg" aria-hidden="true"></div>
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <div class="eyebrow-row">
+                        <span class="eyebrow">🩸 Emergency blood network</span>
+                        <span class="eyebrow eyebrow-rating">Free · No ads</span>
+                    </div>
+                    <h1>Blood when it matters, <span class="text-gradient">from donors who are verified.</span></h1>
+                    <p class="hero-sub">Raise a verified blood request and nearby eligible donors are alerted in waves.
+                        A donor accepts, donates at a blood bank, and the bank confirms it with a one-time code —
+                        without donors' phone numbers being shared.</p>
+
+                    <div class="hero-actions">
+                        <div class="store-badges">
+                            <a href="https://play.google.com/store/apps/details?id=com.neuroxes.lifelink" class="btn-store" aria-label="Get it on Google Play"><svg viewBox="0 0 24 24" class="btn-store-icon" aria-hidden="true"><path fill="#00D4A0" d="M3.6 2.6l9.9 9.9-9.9 9.9c-.4-.25-.6-.7-.6-1.2V3.8c0-.5.2-.95.6-1.2z"/><path fill="#F9AA00" d="M13.5 12.5l3.7-3.7 3.65 2.1c.9.5.9 1.8 0 2.3l-3.65 2.1-3.7-2.8z"/><path fill="#FF3A44" d="M3.6 2.6c.3-.2.7-.2 1.05 0l11.65 6.7-2.75 2.75L3.6 2.6z"/><path fill="#00E188" d="M3.6 21.4c.3.2.7.2 1.05 0l11.65-6.7-2.75-2.75L3.6 21.4z"/></svg><span class="btn-store-text"><small>GET IT ON</small>Google Play</span></a>
+                        </div>
+                        <a href="#how-it-works" class="btn btn-ghost btn-lg">How It Works</a>
+                    </div>
+
+                    <div class="hero-trust">
+                        <div class="hero-trust-item"><strong>7·15·40 km</strong><span>Alert circles widen in waves</span></div>
+                        <div class="hero-trust-item"><strong>~1 km</strong><span>Donor location is blurred</span></div>
+                        <div class="hero-trust-item"><strong>0</strong><span>Donor phone numbers shown to others</span></div>
+                        <div class="hero-trust-item"><strong>0</strong><span>Ads or data sales</span></div>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="logo-showcase">
+                        <img src="logo.png" alt="LifeLink — hands cradling a blood drop with a heartbeat line" loading="eager">
+                    </div>
+                    <div class="floating-chip chip-1">🔒 Your number stays private</div>
+                    <div class="floating-chip chip-2">⚡ Donors alerted in waves</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Strip -->
+        <section class="rating-strip">
+            <div class="container rating-strip-inner">
+                <p class="rating-text"><strong>Verified requests</strong> · <strong>Verified blood banks</strong> · <strong>Matched in minutes</strong></p>
+                <span class="rating-divider" aria-hidden="true"></span>
+                <p class="rating-platforms">Available for <strong>Android</strong> on <strong>Google Play</strong></p>
+            </div>
+        </section>
+
+        <!-- How it works -->
+        <section class="section-block" id="how-it-works">
+            <div class="container">
+                <div class="section-head">
+                    <span class="eyebrow">How It Works</span>
+                    <h2>From request to donation in three steps</h2>
+                    <p>Built for emergencies: every step is verified, and every step happens inside the app.</p>
+                </div>
+
+                <div class="steps-grid">
+                    <div class="step-card">
+                        <div class="step-number">01</div>
+                        <div class="step-icon"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M5 21V4m0 0h11l-1.5 4L16 12H5"/></svg></div>
+                        <h3>Raise a verified request</h3>
+                        <p>Upload the hospital requisition and verify the attendant's phone number. Only verified
+                            requests go live, so donors are never asked for something that isn't real.</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">02</div>
+                        <div class="step-icon"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9M13.7 21a2 2 0 0 1-3.4 0"/></svg></div>
+                        <h3>Nearby donors are alerted</h3>
+                        <p>Eligible donors within 7, then 15, then 40 km are alerted in waves, ranked by distance and
+                            reliability. Donors in a cooldown or deferral are skipped automatically.</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">03</div>
+                        <div class="step-icon"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M20 6L9 17l-5-5"/></svg></div>
+                        <h3>Donate, and the bank confirms</h3>
+                        <p>The donor goes to the blood bank, which confirms the donation with a one-time code. The
+                            donor's history and next-eligible date update on their own.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Who it's for -->
+        <section class="section-block section-tint" id="who-its-for">
+            <div class="container">
+                <div class="section-head">
+                    <span class="eyebrow">Who It's For</span>
+                    <h2>One network, three roles</h2>
+                    <p>Pick your role when you join. You can be a donor and a requester at the same time.</p>
+                </div>
+
+                <div class="features-grid features-grid-3">
+                    <div class="feature-card">
+                        <div class="feature-icon icon-teal"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 3c3 4 6 7.2 6 10.5A6 6 0 0 1 6 13.5C6 10.2 9 7 12 3z"/></svg></div>
+                        <h3>Donors</h3>
+                        <p>Get alerted when someone near you needs your blood group. Accept or decline, chat in the
+                            app, track your donations and see when you can donate next.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon icon-gold"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 21s-7-4.35-9.5-8.5C.5 8.5 2.5 5 6 5c2 0 3.5 1 4 2.5.5-1.5 2-2.5 4-2.5 3.5 0 5.5 3.5 3.5 7.5C19 16.65 12 21 12 21z"/></svg></div>
+                        <h3>Patients' families</h3>
+                        <p>Raise a request for a patient in minutes, follow who has committed, and coordinate with
+                            donors without sharing phone numbers.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon icon-teal"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M4 21V8l8-5 8 5v13M9 21v-6h6v6M9 11h.01M15 11h.01"/></svg></div>
+                        <h3>Blood banks</h3>
+                        <p>Register your bank, get verified, confirm donations with a one-time code, defer donors when
+                            needed and reserve stock for requests.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features -->
+        <section class="section-block" id="features">
+            <div class="container">
+                <div class="section-head">
+                    <span class="eyebrow">Why LifeLink</span>
+                    <h2>Built to be fast, safe, and private</h2>
+                </div>
+
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon icon-teal"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 2l7 4v6c0 5-3.5 8.5-7 10-3.5-1.5-7-5-7-10V6l7-4z"/></svg></div>
+                        <h3>Privacy by design</h3>
+                        <p>Other users never see your phone number, date of birth or health answers — only a donor
+                            code, blood group, availability and a location rounded to about 1 km.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon icon-gold"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M20 6L9 17l-5-5"/></svg></div>
+                        <h3>Smart eligibility</h3>
+                        <p>Donors in cooldown, deferred, underweight or outside the 18–65 age range are never
+                            alerted, and a clinician at the bank always makes the final call.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon icon-teal"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M4 21V8l8-5 8 5v13M9 21v-6h6v6M9 11h.01M15 11h.01"/></svg></div>
+                        <h3>Verified blood banks</h3>
+                        <p>Only banks approved by LifeLink can confirm donations, record a bank-tested blood group
+                            and reserve stock for a request.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon icon-gold"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M17 21v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2M21 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8M10 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8z"/></svg></div>
+                        <h3>Pledged circles</h3>
+                        <p>For recurring transfusions, a circle of consenting donors takes turns, with reminders and
+                            automatic hand-over if someone can't make it.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon icon-teal"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 7v5l3 2M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0z"/></svg></div>
+                        <h3>Alerts that respect you</h3>
+                        <p>Set quiet hours and an alert limit. Non-critical alerts wait until morning; critical ones
+                            still reach you, and everything lands in your in-app inbox.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon icon-gold"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M21 12a8 8 0 0 1-11.6 7.1L3 21l1.9-5.4A8 8 0 1 1 21 12z"/></svg></div>
+                        <h3>Safety tools, in your control</h3>
+                        <p>Chat inside the app, block or report anyone, and delete your account and personal data
+                            from Settings whenever you like.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Privacy callout -->
+        <section class="section-block section-tint" id="privacy">
+            <div class="container">
+                <div class="section-head">
+                    <span class="eyebrow">Your Data</span>
+                    <h2>Health-adjacent data deserves care</h2>
+                    <p>We don't sell your data and we don't show ads. Read exactly what we collect, who can see it, and
+                        how to delete it.</p>
+                </div>
+                <div class="cta-links">
+                    <a href="privacy-policy/index.html" class="btn btn-primary btn-lg">Read the Privacy Policy</a>
+                    <a href="delete-account/index.html" class="btn btn-ghost btn-lg">Delete my account</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="section-block" id="faq">
+            <div class="container">
+                <div class="section-head">
+                    <span class="eyebrow">FAQ</span>
+                    <h2>Good to know</h2>
+                </div>
+
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>Is LifeLink free?</span>
+                            <svg class="faq-caret" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M6 9l6 6 6-6"/></svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Yes. LifeLink is free for donors, requesters and blood banks, and it shows no ads. Donation is voluntary and unpaid — the app does not allow offering or asking for payment.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>Does LifeLink supply blood?</span>
+                            <svg class="faq-caret" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M6 9l6 6 6-6"/></svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>No. LifeLink is a matching and messaging service. We don't collect, test, store, transport or sell blood and we are not a medical provider. A clinician at the blood bank always decides whether a donor can donate, and hospitals must always cross-match blood.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>Who can see my phone number?</span>
+                            <svg class="faq-caret" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M6 9l6 6 6-6"/></svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Nobody. Other users see only a donor code, blood group, availability, reliability and a location rounded to roughly 1 km. Donors and requesters chat inside the app without exchanging numbers. The only exception is the attendant's phone number on a request, which the named blood bank can see. Read the full <a href="privacy-policy/index.html">Privacy Policy</a>.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>Who can donate?</span>
+                            <svg class="faq-caret" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M6 9l6 6 6-6"/></svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>You must be at least 18 to register as a donor. Donors aged 18–65 and at least 50 kg who are not in a cooldown or deferral are eligible for alerts. Your answers to the health questions stay private, and the blood bank makes the final decision.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>What if no donor responds, or it's a life-threatening emergency?</span>
+                            <svg class="faq-caret" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M6 9l6 6 6-6"/></svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Call emergency services or go to the nearest hospital now — don't wait for a response in the app. LifeLink widens the search in waves, but it can't guarantee that a donor will be found in time.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>How do I delete my account?</span>
+                            <svg class="faq-caret" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M6 9l6 6 6-6"/></svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Open Settings → Delete account in the app and verify with a code sent to your phone. Step-by-step details, and what is and isn't removed, are on the <a href="delete-account/index.html">Delete Account</a> page.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>Which platforms are supported?</span>
+                            <svg class="faq-caret" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M6 9l6 6 6-6"/></svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>LifeLink is available for Android on <a href="https://play.google.com/store/apps/details?id=com.neuroxes.lifelink">Google Play</a>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final CTA -->
+        <section class="cta-banner">
+            <div class="container cta-content">
+                <h2>Someone nearby may need your blood group.</h2>
+                <p>Join as a donor, or raise a verified request when you need help. Free, private, and built for emergencies.</p>
+                <div class="store-badges store-badges-cta">
+                    <a href="https://play.google.com/store/apps/details?id=com.neuroxes.lifelink" class="btn-store btn-store-light" aria-label="Get it on Google Play"><svg viewBox="0 0 24 24" class="btn-store-icon" aria-hidden="true"><path fill="#00D4A0" d="M3.6 2.6l9.9 9.9-9.9 9.9c-.4-.25-.6-.7-.6-1.2V3.8c0-.5.2-.95.6-1.2z"/><path fill="#F9AA00" d="M13.5 12.5l3.7-3.7 3.65 2.1c.9.5.9 1.8 0 2.3l-3.65 2.1-3.7-2.8z"/><path fill="#FF3A44" d="M3.6 2.6c.3-.2.7-.2 1.05 0l11.65 6.7-2.75 2.75L3.6 2.6z"/><path fill="#00E188" d="M3.6 21.4c.3.2.7.2 1.05 0l11.65-6.7-2.75-2.75L3.6 21.4z"/></svg><span class="btn-store-text"><small>GET IT ON</small>Google Play</span></a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="index.html#top" class="logo">
+                    <img src="logo.png" alt="LifeLink logo" class="logo-img">
+                    <span class="logo-text">LifeLink</span>
+                </a>
+                <p>Emergency blood network. Verified requests, nearby donors, verified blood banks.</p>
+            </div>
+
+            <div class="footer-links">
+                <div class="footer-col">
+                    <h4>Product</h4>
+                    <a href="index.html#how-it-works">How It Works</a>
+                    <a href="index.html#who-its-for">Who It's For</a>
+                    <a href="index.html#features">Features</a>
+                    <a href="index.html#faq">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <a href="privacy-policy/index.html">Privacy Policy</a>
+                    <a href="delete-account/index.html">Delete Account</a>
+                    <a href="mailto:support@neuroxes.com">Contact Us</a>
+                    <a href="https://neuroxes.com">neuroxes.com</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Get the App</h4>
+                    <a href="https://play.google.com/store/apps/details?id=com.neuroxes.lifelink">Google Play (Android)</a>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; <span id="footerYear">2026</span> LifeLink by Neuroxes. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
